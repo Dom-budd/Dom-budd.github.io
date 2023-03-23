@@ -1,0 +1,31 @@
+body { 
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 60px;
+}
+.name{
+    background-color: #19355b;
+    top: 0;
+    
+    color: whitesmoke;
+}
+
+button{
+    height: 60px;
+    width: 190px;
+    background-color: #e4b836;
+    border: none;
+    border-radius: 30px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.buttons{
+    top: 0;
+    float: right;
+}
