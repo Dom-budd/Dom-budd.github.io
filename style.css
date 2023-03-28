@@ -29,3 +29,12 @@ button{
     top: 0;
     float: right;
 }
+button:hover{
+  background-color: white;
+  border: #e4b836;
+  color: #e4b836;
+  border-style: solid;
+}
+button:active{
+  opacity: 0.7;
+}
