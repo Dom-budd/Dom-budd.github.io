@@ -5,36 +5,45 @@ body {
     margin-left: 0px
 }
 
-h1{
-    font-family: sans-serif;
-    font-size: 60px;
-}
 .name{
+    padding-top: 25px;
     background-color: #19355b;
     top: 0;
-    
     color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: 1px;
+    margin-left: 20px;
 }
-
+.banner{
+    background-color: #19355b;
+    padding-bottom: 25px;
+}
 button{
-    height: 60px;
-    width: 190px;
+    height: 50px;
     background-color: #e4b836;
     border: none;
-    border-radius: 30px;
+    border-radius: 50px;
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 28px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 25px;
 }
 .buttons{
-    top: 0;
+    margin-top: 25px;
     float: right;
 }
-button:hover{
-  background-color: white;
-  border: #e4b836;
-  color: #e4b836;
-  border-style: solid;
+
+.front-page{
+    padding-top: 20%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
 }
-button:active{
-  opacity: 0.7;
+
+.me-img > img{
+    background-image: none;
+    opacity: 0.7;
 }
