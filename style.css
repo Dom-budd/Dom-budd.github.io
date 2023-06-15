@@ -5,6 +5,10 @@ body {
     margin-left: 0px
 }
 
+p{
+    font-family: sans-serif;
+}
+
 .name{
     padding-top: 25px;
     background-color: #19355b;
@@ -37,21 +41,45 @@ button{
 
 .front-page{
     height: 1000px;
-    padding-top: 10%;
-    text-align: center;
-    color: #e4b836;
-    font-family: sans-serif;
-    font-size: large;
-    font-weight: bold;
-    background-image: url("Me.png");
+
+    background-image: url("olden_portfolio_img.jpg");
     background-repeat: no-repeat;
-    background-size: 30%;
+    background-size: 100%;
     background-position: center;
     border-style: solid;
     border-color: black;
 }
 
 .front-page-text{
-    background-color: black;
-    color: whitesmoke;
+    padding-top: 15%;
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 1px 1px #525252;
+}
+.projects-page{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+
+}
+
+.project-1{
+    background-color: #e4b836;
+    padding: 13%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.project-2{
+    background-color: #e4b836;
+    padding: 13%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
