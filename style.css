@@ -8,7 +8,10 @@ body {
 p{
     font-family: sans-serif;
 }
-
+h1{
+    font-family: sans-serif;
+    text-align: center;
+}
 .name{
     padding-top: 25px;
     background-color: #19355b;
@@ -18,6 +21,7 @@ p{
     font-size: 40px;
     margin: 1px;
     margin-left: 20px;
+    font-weight: bold;
 }
 .banner{
     background-color: #19355b;
@@ -59,27 +63,79 @@ button{
     font-weight: bolder;
     text-shadow: 1px 1px #525252;
 }
-.projects-page{
-    font-family: sans-serif;
-    text-align: center;
-}
 
-.projects{
+
+.projects-1{
     display: flex;
     justify-content: space-evenly;
     font-weight: bold;
 
 }
-
 .project-1{
     background-color: #e4b836;
     padding: 13%;
     margin-right: 5%;
-    margin-left: 5%;
+    margin-left: 15%;
+    border-radius: 6px;
+    transition: 0.15s;
+}
+.project-1:hover{
+    box-shadow: black 4px 4px 15px;
+    padding: 14%;
+    transition: 0.15s;
+    background-image: url("pc_img.jpg");
 }
 .project-2{
     background-color: #e4b836;
     padding: 13%;
-    margin-right: 5%;
+    margin-right: 15%;
     margin-left: 5%;
+    border-radius: 6px;
+    transition: 0.15s;
+
+}
+.project-2:hover{
+    box-shadow: black 4px 4px 15px;
+    padding: 14%;
+    transition: 0.15s;
+}
+.projects-2{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+
+}
+.project-3{
+    background-color: #e4b836;
+    padding: 13%;
+    margin-right: 5%;
+    margin-left: 15%;
+    border-radius: 6px;
+    transition: 0.15s;
+}
+.project-3:hover{
+    box-shadow: black 4px 4px 15px;
+    padding: 14%;
+    transition: 0.15s;
+}
+.project-4{
+    background-color: #e4b836;
+    padding: 13%;
+    margin-right: 15%;
+    margin-left: 5%;
+    border-radius: 6px;
+    transition: 0.15s;
+
+}
+.project-4:hover{
+    box-shadow: black 4px 4px 15px;
+    padding: 14%;
+    transition: 0.15s;
+}
+.education-page{
+    background-color: #19355b;
+    
+}
+.education-title{
+    color: white;
 }
