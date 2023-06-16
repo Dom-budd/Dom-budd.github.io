@@ -84,6 +84,7 @@ button{
     padding: 14%;
     transition: 0.15s;
     background-image: url("pc_img.jpg");
+    color: white;
 }
 .project-2{
     background-color: #e4b836;
@@ -138,4 +139,24 @@ button{
 }
 .education-title{
     color: white;
+}
+.college{
+    color: black;
+    font-family: sans-serif;
+    float: left;
+    padding-left: 20%;
+    padding-right: 60%;
+    padding-bottom: 30%;
+    margin: 5%;
+    border-style: solid;
+    background-image: url("yeovil_college.jpg");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: left;
+    border-radius: 50px;
+    display: flex
+}
+.yeo-col-para{
+
+    float: right;
 }
